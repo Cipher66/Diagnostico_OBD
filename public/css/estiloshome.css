@@ -1,0 +1,83 @@
+
+/* Estilos para el MENU*/
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #54697E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+
+}
+
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(30em - 81px);
+    background-image: url("../images/boxes.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.blanco{
+    color:white;
+}
+
+h1{
+    font-family: proxima-nova, sans-serif;
+    color : white
+}
+#titulo{
+    color: #f05f40;
+}
+#menus:hover{
+    color: #f05f40;
+}
+#navbar{
+    background-color: white;
+}
+
+footer {
+    background-color: black;
+}
+#footer1 {
+    height: 82vh;
+}
+#parrafo{
+    color: lightblue;
+}
+
+footer {
+    background-color: black;
+}
+#footer1 {
+    height: 82vh;
+}
+#parrafo{
+    color: lightblue;
+}
