@@ -53,13 +53,14 @@ h1{
     color : white
 }
 #titulo{
+    /*margin-top: 11px;*/
     color: #f05f40;
 }
 #menus:hover{
     color: #f05f40;
 }
 #navbar{
-    background-color: white;
+    background-color: #373a3c;
 }
 
 footer {
