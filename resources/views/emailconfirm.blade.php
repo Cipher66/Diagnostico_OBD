@@ -8,9 +8,10 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Registro Confirmado</div>
                 <div class="panel-body">
-                    Tu cuenta ha sido verificada. Click aqui <a href={{url('/login')}}>login</a>
+                    Tu cuenta ha sido verificada. Click aqui: <a href={{url('/login')}}>LOGIN</a>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 @endsection

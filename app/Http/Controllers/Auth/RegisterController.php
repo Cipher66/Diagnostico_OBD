@@ -74,8 +74,8 @@ class RegisterController extends Controller
         ]);
     }
 
-    public function register(Request $reques){
-        $this->validator($request -> all())-validate();
+    public function register(Request $request){
+        $this->validator($request->all())->validate();
         event (new Registered($user = $this->create($request->all())));
         dispatch(new SendVerificationEmail($user));
 
@@ -88,7 +88,7 @@ class RegisterController extends Controller
         $user->verified = 1;
 
         if($user->save()){
-            return view('email_confirm',['user'=>$user]);
+            return view('emailconfirm',['user'=>$user]);
         }
     }
 }
